@@ -5,6 +5,7 @@ body{
 h1{
   font-family: 'Work Sans', sans-serif;
   color:black;
+  font-weight: lighter;
   text-transform: uppercase;
   font-size: 50px;
 }
