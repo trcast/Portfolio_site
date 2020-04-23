@@ -165,6 +165,9 @@ h3{
   transform: scale(1.1);
 }
 
+
+
+
 @media only screen and (max-width:1000px) {
 
   .biggest_box{
@@ -198,5 +201,8 @@ h3{
     position: relative;
   }
 
+  .modal-content {
+    width: 100%;
+  }
 
 }

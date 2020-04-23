@@ -109,7 +109,7 @@ h3{
 .about_box{
   display:flex;
   width: 90%;
-  height: 700px;
+  height: auto;
   opacity: 100%;
   padding: 10px;
   flex-direction:column;
@@ -117,9 +117,10 @@ h3{
   align-items:center;
   padding: 40px;
   align-self: center;
-  border-style: solid;
-  border-color: black;
-  border-width: thick;
+}
+
+.about_box img{
+  max-width: 70%;
 }
 
 @media only screen and (max-width:1000px) {
