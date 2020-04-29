@@ -1,5 +1,6 @@
 body{
   background-color: white;
+  overflow:inherit;
 }
 
 h1{
@@ -23,6 +24,8 @@ h3{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  scroll-behavior: smooth;
+  padding: 30px;
 }
 
 
@@ -49,14 +52,22 @@ h3{
 
 .bubble{
   display:flex;
-  width: 100%;
+  width: 90%;
   height: auto;
   opacity: 100%;
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  background-color: white;
   position: relative;
+  background-color: white;
+  background-image: url('design/pattern_1.1.png');
+  background-size: 20%;
+  border-radius: 300px;
+  padding: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+  background-attachment: scroll;
 }
 
 .bubble:link{
@@ -78,6 +89,7 @@ h3{
   border-radius: 500px;
   padding: 20px;
   box-shadow: 5px 5px black;
+  background-color: white;
 }
 
 .about{
@@ -94,6 +106,7 @@ h3{
   border-radius: 500px;
   padding: 20px;
   box-shadow: 5px 5px black;
+  background-color: white;
 }
 
 .about:hover{
@@ -109,19 +122,24 @@ h3{
 .about_box{
   display:flex;
   width: 90%;
-  height: auto;
+  height: 400px;
   opacity: 100%;
-  padding: 10px;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   padding: 40px;
   align-self: center;
+  background-color: white;
+  padding: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
 }
 
 .about_box img{
   max-width: 70%;
 }
+
 
 @media only screen and (max-width:1000px) {
 
