@@ -100,3 +100,13 @@ h3{
   cursor: pointer;
   transform: scale(1.1);
 }
+
+.about img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.work_text img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}

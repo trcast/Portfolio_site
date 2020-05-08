@@ -57,18 +57,17 @@ h3{
   background-color: #FAAFCC;
   width: auto;
   height: auto;
-  border-radius: 500px;
+  border-radius: 70px;
   border-style: solid;
   border-width: thick;
   border-color: black;
-  padding: 10px;
   align-self: center;
   margin-top: 100px;
   box-shadow: 5px 5px black;
 }
 
 .enter img{
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .enter:hover{
