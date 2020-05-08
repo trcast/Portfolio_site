@@ -23,7 +23,8 @@ h3{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  align-self: center;
+  scroll-behavior: smooth;
+  padding: 30px;
 }
 
 .work_outer{
@@ -75,6 +76,10 @@ h3{
   margin: 30px;
 }
 
+.bubble img{
+  max-width:60%;
+}
+
 .bubble{
   display:flex;
   width: 90%;
@@ -92,6 +97,7 @@ h3{
   border-style: solid;
   border-color: black;
   border-width: thick;
+  background-attachment: scroll;
 }
 
 .bubble:link{

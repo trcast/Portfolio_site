@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: #95B3EA;
   overflow:inherit;
 }
 
@@ -19,206 +19,72 @@ h3{
 
 .biggest_box{
   display: flex;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   scroll-behavior: smooth;
-  padding: 30px;
 }
 
 
 .top_box{
   display:flex;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   opacity: 100%;
   padding: 10px;
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  padding: 40px;
+  padding: 30px;
   align-self: center;
 }
 
 .top_box img{
-  max-width:60%;
-}
-
-.bubble img{
-  max-width:60%;
-}
-
-.bubble{
-  display:flex;
-  width: 90%;
-  height: auto;
-  opacity: 100%;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  position: relative;
-  background-color: white;
-  background-image: url('design/pattern_1.1.png');
-  background-size: 20%;
-  border-radius: 300px;
-  padding: 15px;
+  max-width:50%;
+  border-radius: 500px;
   border-style: solid;
-  border-color: black;
   border-width: thick;
-  background-attachment: scroll;
+  border-color: black;
 }
 
-.bubble:link{
-  text-decoration: none;
+.enter{
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
-
-.work{
-  display:flex;
-  width: 40%;
+  flex-direction: row;
+  background-color: #FAAFCC;
+  width: auto;
   height: auto;
-  opacity: 100%;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  border-style: solid;
-  border-width: 4px;
-  border-color: black;
   border-radius: 500px;
-  padding: 20px;
-  box-shadow: 5px 5px black;
-  background-color: white;
-}
-
-.about{
-  display:flex;
-  width: 40%;
-  height: auto;
-  opacity: 100%;
-  flex-direction:row;
-  justify-content:space-around;
-  align-items:center;
   border-style: solid;
-  border-width: 4px;
-  border-color: black;
-  border-radius: 500px;
-  padding: 20px;
-  box-shadow: 5px 5px black;
-  background-color: white;
-}
-
-.about:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.work:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.about_box{
-  display:flex;
-  width: 90%;
-  height: 400px;
-  opacity: 100%;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  padding: 40px;
-  align-self: center;
-  background-color: white;
-  padding: 30px;
-  border-style: solid;
-  border-color: black;
   border-width: thick;
+  border-color: black;
+  padding: 10px;
+  align-self: center;
+  margin-top: 100px;
+  box-shadow: 5px 5px black;
 }
 
-.about_box img{
+.enter img{
   max-width: 70%;
 }
+
+.enter:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.enter img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 
 
 @media only screen and (max-width:1000px) {
 
-  .biggest_box{
-      display: flex;
-      width: auto;
-      height: auto;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-    }
-
-
-  .top_box{
-    display:flex;
-    width: auto;
-    height: 100%;
-    opacity: 0%;
-    padding: 0px;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    padding: 30px;
-  }
-
-  .top_box img{
-    max-width:90%;
-    align-self: center;
-  }
-
-  .bubble{
-    display:flex;
-    width: 70%;
-    height: auto;
-    opacity: 100%;
-    padding: 10px;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-  }
-
-  .bubble img{
-    max-width: 70%;
-    align-self: center;
-  }
-
-  .work{
-    display:flex;
-    width: 60%;
-    height: auto;
-    opacity: 100%;
-    padding: 10px;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    border-style: solid;
-    border-width: medium;
-    border-color: black;
-    border-radius: 500px;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-
-  .about{
-    display:flex;
-    width: 65%;
-    height: auto;
-    opacity: 100%;
-    padding: 10px;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    border-style: solid;
-    border-width: medium;
-    border-color: black;
-    border-radius: 500px;
-    padding: 20px;
-  }
 
 
 }

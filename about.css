@@ -1,0 +1,102 @@
+body{
+  background-color: white;
+  overflow:inherit;
+}
+
+h1{
+  font-family:sans-serif;
+  color:black;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+h3{
+  font-family: sans-serif;
+  color:black;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.biggest_box{
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+  padding: 30px;
+}
+
+.biggest_box img{
+  max-width: 60%;
+}
+
+.bubble{
+  display:flex;
+  width: 90%;
+  height: auto;
+  opacity: 100%;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  background-color: white;
+  background-image: url('design/pattern_1.1.png');
+  background-size: 20%;
+  border-radius: 300px;
+  padding: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+  background-attachment: scroll;
+}
+
+.bubble:link{
+  text-decoration: none;
+  align-items: center;
+}
+
+.work{
+  display:flex;
+  width: 40%;
+  height: auto;
+  opacity: 100%;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  border-radius: 500px;
+  padding: 20px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+}
+
+.about{
+  display:flex;
+  width: 40%;
+  height: auto;
+  opacity: 100%;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  border-radius: 500px;
+  padding: 20px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+}
+
+.about:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.work:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
